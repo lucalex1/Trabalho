@@ -1,0 +1,140 @@
+/* .textoLogin{
+    margin: 15px;
+    text-align: center;
+} */
+
+h1{
+    color: gray;
+}
+
+.formulariosVotacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.formVotacao{
+    display: block;
+    width: 420px;
+    padding: 15px;
+    height: 435px;
+    margin-top: 50px;
+    margin-right: 5%;
+    /* background-color: var(--royal-blue-light); */
+    background-color: lightgray;            
+    border-radius: 5%;       
+    border-style: none;
+}
+
+.formResultado{
+    display: block;
+    width: 420px;
+    padding: 15px;
+    height: 350px;
+    margin-top: 50px;
+    /* margin-left: 5%;     */
+    background-color: #007DBB;
+    border-radius: 5%; 
+    border-style: none;       
+}
+
+.opcoesVoto{
+    margin: 10px;
+}
+
+.lengendaVotacao{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+input[type=radio], input[type=checkbox]  {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    font-family: sans-serif;    
+    margin: 12px 0;    
+}
+
+.selecaovoto{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 20px;
+    color:black;
+}
+
+.informacao{
+    border-style: solid;
+    width: 20px;
+    right: 20px;
+    border-radius: 50%;
+}
+
+
+/*input[type=radio], input[type=checkbox]  {
+    width:70%; 
+    border-radius: 4px;
+    font-size: 15px;
+    height: 40px;
+    margin: 12px 0;
+    font-family: sans-serif;
+    padding: 1em;
+    color: #6f6660;
+    font-weight: 500;
+    outline: 0;
+
+}*/
+
+label{
+    color: white;
+}
+
+
+.confirmaVoto {
+    background-color: green;
+    color: var(--white);
+    padding: 20px 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;    
+    margin-inline-start: 10%;
+    margin-top: 5%;
+    transition-duration: 0.4s;
+    cursor: pointer;    
+    border-radius: 5px;
+    border-style: none;
+  }
+  
+  .confirmaVoto:hover {
+     background-color: var(--white) ;
+     color: green;
+  }
+
+.listaResultado{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.imagemImpressora{
+    display:flex;
+    list-style:none;        
+    gap: 0.5rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 15px;
+    padding-inline-start: 40px;      
+    color: yellow;
+    text-decoration: underline;
+  }
+  
+

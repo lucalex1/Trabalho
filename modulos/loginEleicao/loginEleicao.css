@@ -1,0 +1,108 @@
+.textoLogin{
+    margin: 3px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+h3{
+    color: red;
+}
+
+.imagemLogin{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.textoDados{
+    margin-top: 25px;
+}
+
+.formLogin{
+    /* display: block; */
+    display: flex;    
+    width: 350px;
+    padding: 15px;
+    height: 600px;
+    margin-top: 25px;
+    /* background-color: var(--royal-blue-light);     */
+    background-color: lightgray;        
+    border-radius: 5%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formLogin .form-control[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+.formLogin .form-control[type="password"] {
+margin-bottom: 10px;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+}
+
+.form-floating{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.form-control{
+    width: 300px;    
+    border-radius: 4px;
+    border-style: none;
+    font-size: 15px;
+    height: 40px;
+    margin: 6px 0;
+    font-family: sans-serif;
+    padding: 1em;
+    color: #6f6660;
+    font-weight: 500;
+    /* outline: 0; */
+
+}
+
+.labelLogin{
+    color: black;
+}
+
+
+/* .buttonVotar { */
+.botaoacesso {
+    /* background-color: red; */
+    background-color: #007DBB;      
+    color: var(--white);
+    /* padding: 10px 40px; */
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;    
+    margin-inline-start: 30%;
+    margin-top: 5%;
+    transition-duration: 0.4s;
+    cursor: pointer;    
+    border-radius: 5px;
+    border-style: none;
+    height: 25px;
+    width: 120px;
+  }
+  
+  /* .buttonVotar:hover { */
+.botaoacesso:hover{
+     background-color: #990000  ;
+     color: var(--white);
+  }
+
+
+.esqueciSenha{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+    text-decoration: underline;    
+    margin-top: 5%;
+    cursor: pointer;
+}

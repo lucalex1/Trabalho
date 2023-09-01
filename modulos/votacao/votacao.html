@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- <iframe src="../index.html" frameborder="0"></iframe>   -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eleições Sinpro Minas 2023</title>
+    <link rel="stylesheet" href="../../Global.css" />
+    <link rel="icon" href="https://www.sinprominas.org.br/wp-content/uploads/2022/09/cropped-sinpromiansicone512px-32x32.png" sizes="32x32">                
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="logo">Eleição - Sinpro Minas 2023</a>
+      <nav class="nav">
+      </nav>
+    </header>
+    <main class="telaInicial">                  
+      <section class="textoPaginaInicial">
+        <h1 class="textoLogin">SELECIONE UMA OPÇÃO</h1>
+        <div class="formulariosVotacao">          
+          <form id="formVotacao">
+            <fieldset class="formVotacao">
+              <!-- <legend class="lengendaVotacao"> Opções para Seleção </legend> -->
+
+              <div class="opcoesVoto">              
+                <input type="radio" id="chapa1" name="selecaovoto" value="1">
+                <label for="chapa1" class="selecaovoto">CHAPA 1</label>
+                <a href="" target="_blank">
+                  <img class="imagem" src="../../Imagens/informa.png" alt="">                                                                    
+                </a>                    
+              </div>
+
+              <div class="opcoesVoto">              
+                <input type="radio"  id="votoBranco" name="selecaovoto" value="99">
+                <label for="votoBranco" class="selecaovoto">VOTO EM BRANCO</label>
+                <a href="" target="_blank">
+                  <img class="imagem" src="../../Imagens/informa.png" alt="">                                                                    
+                </a>                    
+              </div>   
+
+              <div class="opcoesVoto">              
+                <input type="radio"  id="anulavoto" name="selecaovoto" value="99">
+                <label for="anulavoto" class="selecaovoto">VOTO NULO</label>
+                <a href="" target="_blank">
+                  <img class="imagem" src="../../Imagens/informa.png" alt="">                                                                    
+                </a>                    
+              </div>   
+
+              
+              <hr style="width: 100%; padding: 0.5%;">
+                
+              <button class="confirmaVoto" type="button" onclick="exibeResultado()">CONFIRMA VOTO!</button>
+                <!-- <a href="https://www.freecodecamp.org/"><button class="buttonVotar" type="submit">VOTAR</button></a>              -->
+            </fieldset>                                    
+
+          </form>
+
+          <form id="formResultado" hidden>
+            <fieldset class="formResultado">
+                <!-- <legend>Resultado</legend> -->
+                <ul>
+                  <li class="listaResultado"> Votante         : Fernandes de Souza Pereira</li>                  
+                  <li class="listaResultado"> Matricula       : 78999</li>                                    
+                  <li class="listaResultado"> CPF             : 456.871.410-16</li>                                                      
+                  <li class="listaResultado"> Data da Votação : 27/07/2023 15:00:10 </li>                                                      
+                  <li class="listaResultado"> Confirmação     : asd123456987ff </li>                                                                        
+                </ul>
+                <hr style="width: 100%; padding: 0.5%;">
+                <a class="imagemImpressora" href="" target="_blank">
+                  <img  src="../../Imagens/email.png" alt="Enviar comprovante de voto por email!">                    
+                  <b>Enviar comprovante de voto por email!</b>                                      
+                </a>
+
+            </fieldset>      
+          </form>
+
+
+          <!-- <form class="formResultado" hidden>
+
+            <hr size = 7>            
+
+            <a href="https://www.freecodecamp.org/"><button class="buttonVotar" type="submit">VOTAR</button></a>             
+
+          </form> -->
+        </div>
+      </section>
+    </main>
+    <footer>        
+      <p class="textoRodape">
+        COPYRIGHT © 2023 - Sindicato dos Professores do Estado de Minas Gerais – Todos os Direitos Reservados. Contato : (31) 3115.3000 | <a class="emailContato" href="mailto:sinprominas@sinprominas.org.br">sinprominas@sinprominas.org.br</a>
+      </p>        
+      <ul class="canaisComunicacao">
+      </ul>
+    </footer>
+    <!-- <script defer src="../../app.js"></script> -->
+    <script src="../../modulos/votacao/votacao.js"></script>    
+  </body>
+</html>

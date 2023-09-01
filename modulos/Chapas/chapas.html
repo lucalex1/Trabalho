@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <!-- <iframe src="../index.html" frameborder="0"></iframe>   -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eleições Sinpro Minas 2023</title>
+    <link rel="stylesheet" href="../../Global.css" />
+    <link rel="icon" href="https://www.sinprominas.org.br/wp-content/uploads/2022/09/cropped-sinpromiansicone512px-32x32.png" sizes="32x32">                
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="logo">Eleição - Sinpro Minas 2023</a>
+      <nav class="nav">
+        <button class="btn-menu" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false" hidden>
+          Menu<span class="botaoMenu"></span>
+        </button>
+        <input type="checkbox" id="checkbox" class="checkbox" />
+        <label for="checkbox" class="label-menu"
+          >Menu<span class="botaoMenu"></span
+        ></label>
+        <ul class="menu" id="menu" role="menu">          
+          <li><a href="../../index.html"> <img alt="../fonte/index.html" src="../../Imagens/icone-home.png">  
+            Início</a></li>
+          <li><a class="botoesmenu" id="btnchapa"> <img alt="W3Schools" src="../../Imagens/icone-chapas.png">              
+            Chapas</a></li>
+          <li><a href="../Documentos/documentos.html"> <img alt="W3Schools" src="../../Imagens/icone-documentos.png">                         
+            Documentação</a></li>
+          <li><a href="../Duvidas/duvidas.html"> <img alt="W3Schools" src="../../Imagens/icone-duvidas.png">                                     
+            Dúvidas</a></li>
+          <li><a href="../../modulos/RecuperaSenha/recuperasenha.html"> <img alt="W3Schools" src="../../Imagens/icone-senhas.png">                                                 
+            Recupera Senha</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="telaInicial">                  
+      <section class="textoPaginaInicial">
+        <h2 class="textoChapa">CHAPAS E CANDIDATOS</h2>
+        <button class="botaochapa" id="botaochapa1" type="button" onclick="exibechapa(1)">CHAPA 1 - (clique aqui)  </button>
+        <table class="listachapas" id="chapas1" border ="1" hidden>
+          <tr class="listachapas">
+            <td class="candidatos"> <b>Presidente : </b> VVVVVVVVVVVVV </td>
+          </tr>    
+          <tr class="listachapas">            
+            <td class="candidatos"> <b>Vice-Presidente : </b> TTTTTTTTTT </td>
+          </tr>
+          <tr class="listachapas">            
+            <td class="candidatos"> <b>Diretor(A) : </b> FFFFFFFFFFFFFF</td>
+          </tr>
+          <tr class="listachapas">            
+            <td class="candidatos"> <b>Diretor(A) : </b> LLLLLLLLLLLLLLLLL</td>
+          </tr>  
+          <tr class="listachapas">            
+            <td class="candidatos"> <b>Diretor(A) : </b> MMMMMMMMMMMM</td>
+          </tr>        
+        </table>  
+        <button class="botaochapa" id="botaochapa2" type="button" onclick="exibechapa(2)">CHAPA 2 - (clique aqui)  </button>
+        <table class="listachapas" id="chapas2" border ="1" hidden>
+          <tr class="listachapas">
+            <td class="candidatos"> <b>Presidente : </b> VVVVVVVVVVVVV </td>
+          </tr>    
+          <tr class="listachapas">            
+            <td class="candidatos"> <b>Vice-Presidente : </b> TTTTTTTTTT </td>
+          </tr>
+          <tr class="listachapas">            
+            <td class="candidatos"> <b>Diretor(A) : </b> FFFFFFFFFFFFFF</td>
+          </tr>
+          <tr class="listachapas">            
+            <td class="candidatos"> <b>Diretor(A) : </b> LLLLLLLLLLLLLLLLL</td>
+          </tr>  
+          <tr class="listachapas">            
+            <td class="candidatos"> <b>Diretor(A) : </b> MMMMMMMMMMMM</td>
+          </tr>        
+        </table>  
+
+          <!-- <ul class="listachapas" id="chapas" role="chapas" hidden>
+            <li class="candidatos"> 
+              PRESIDENTE : MMMMMMMMMMMMMMMMMMMMMMMMMMMM </li>
+
+            <li class="candidatos"> 
+              VICE-PRESIDENTE : CCCCCCCCCCCCCCCCCCCCCCC </li>
+
+            <li class="candidatos"> 
+              DIRETOR(A) : FFFFFFFFFFFFFFFFFFFFF</li>
+
+            <li class="candidatos"> 
+              DIRETOR(A) : LLLLLLLLLLLLLLLLLLLLLLLL</li>
+
+            <li class="candidatos"> 
+              DIRETOR(A) : MMMMMMMMMMMMMMMMMMMMM</li>
+          </ul> -->
+      </section>
+    </main>
+    <footer>        
+      <p class="textoRodape">
+        COPYRIGHT © 2023 - Sindicato dos Professores do Estado de Minas Gerais – Todos os Direitos Reservados. Contato : (31) 3115.3000 | <a class="emailContato" href="mailto:sinprominas@sinprominas.org.br">sinprominas@sinprominas.org.br</a>          
+      </p>        
+
+      <ul class="canaisComunicacao">
+        <li class="elementoComunicacao" alt="https://pt-br.facebook.com/sinpro.minas/">
+            <a href="https://pt-br.facebook.com/sinpro.minas/" target="_blank">
+                <img class="imagem" src="../../Imagens/icone-face.png" alt="https://pt-br.facebook.com/sinpro.minas/">
+            </a>                  
+        </li>
+        <li class="elementoComunicacao" alt="https://www.instagram.com/sinpro.minas/">
+            <a href="https://www.instagram.com/sinpro.minas/" target="_blank">
+                <img class="imagem" src="../../Imagens/icone-instagram.png" alt="https://www.instagram.com/sinpro.minas/">                    
+            </a>                    
+        </li>    
+            
+        </li>
+        <li class="elementoComunicacao" alt="https://www.youtube.com/sinprominas">
+            <a href="https://www.youtube.com/sinprominas" target="_blank">
+                <img class="imagem" src="../../Imagens/icone-youtube.png" alt="https://www.youtube.com/sinprominas">                                            
+            </a>                    
+        </li>
+        <li class="elementoComunicacao"  alt="https://twitter.com/sinprominas">
+            <a href="https://twitter.com/sinprominas" target="_blank">
+                <img class="imagem" src="../../Imagens/icone-twitter.png" alt="https://twitter.com/sinprominas">                                                                    
+            </a>                    
+        </li>
+      </ul>
+
+      <!-- <ul class="canaisComunicacao">
+          <li class="elementoComunicacao" alt="https://pt-br.facebook.com/sinpro.minas/">
+              <a href="https://pt-br.facebook.com/sinpro.minas/" target="_blank">
+                  <img class="imagem" src="../../Imagens/facebook.png" alt="https://pt-br.facebook.com/sinpro.minas/">
+              </a>                  
+          </li>
+          <li class="elementoComunicacao" alt="https://www.instagram.com/sinpro.minas/">
+              <a href="https://www.instagram.com/sinpro.minas/" target="_blank">
+                  <img class="imagem" src="../../Imagens/instagram.png" alt="https://www.instagram.com/sinpro.minas/">                    
+              </a>                    
+          </li>    
+              
+          </li>
+          <li class="elementoComunicacao" alt="https://www.youtube.com/sinprominas">
+              <a href="https://www.youtube.com/sinprominas" target="_blank">
+                  <img class="imagem" src="../../Imagens/youtube.png" alt="https://www.youtube.com/sinprominas">                                            
+              </a>                    
+          </li>
+          <li class="elementoComunicacao"  alt="https://twitter.com/sinprominas">
+              <a href="https://twitter.com/sinprominas" target="_blank">
+                  <img class="imagem" src="../../Imagens/twitter.png" alt="https://twitter.com/sinprominas">                                                                    
+              </a>                    
+          </li>
+      </ul> -->
+    </footer>
+    <script defer src="../../modulos/Chapas/chapas.js"></script>
+  </body>
+</html>

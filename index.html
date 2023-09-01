@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eleições 2023 - Sinpro Minas</title>
+    <link rel="stylesheet" href="Global.css"/>
+    <link rel="icon" href="https://www.sinprominas.org.br/wp-content/uploads/2022/09/cropped-sinpromiansicone512px-32x32.png" sizes="32x32">                
+  </head>
+  <body> 
+    <header class="header fixed-top" >
+      <a href="/" class="logo">Eleição 2023 - Sinpro Minas</a>     
+
+      <nav class="nav">
+        <button class="btn-menu" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false" hidden>
+          Menu<span class="botaoMenu"></span>
+        </button>
+        <input type="checkbox" id="checkbox" class="checkbox" />
+        <label for="checkbox" class="label-menu"
+          >Menu<span class="botaoMenu"></span
+        ></label>
+        <ul class="menu" id="menu" role="menu">          
+          <li><a class="botoesmenu" id="btinicio"> <img alt="" src="Imagens/icone-home.png">  
+              Início</a></li>
+          <li><a class="botoesmenu" href=" modulos/Chapas/chapas.html"> <img alt="" src="Imagens/icone-chapas.png">              
+              Chapas</a></li>
+          <li><a class="botoesmenu" href="modulos/Documentos/documentos.html"> <img alt="" src="Imagens/icone-documentos.png">                         
+            Documentação</a></li>
+          <li><a class="botoesmenu" href="modulos/Duvidas/duvidas.html"> <img alt="" src="Imagens/icone-duvidas.png">                                     
+            Dúvidas</a></li>
+          <li><a class="botoesmenu" href="modulos/RecuperaSenha/recuperasenha.html"> <img alt="" src="Imagens/icone-senhas.png">
+            Recupera Senha</a></li>                                                                                        
+          <li><a class="botoesmenu" href="modulos/RecuperaSenha/recuperasenha.html"> <img alt="" src="Imagens/icone-config.png">
+            Administração</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="telaInicial">      
+      <div class="row">        
+        <div class="coluna">
+          <a href="https://www.sinprominas.org.br"> 
+            <!-- <img class="logoSinpro" src="Imagens/logo-sinpro.png" alt="www.sinprominas.org.br" style="width:100%"> -->
+            <img class="logoSinpro" src="Imagens/logo-eleicoes-sinprominas.png" alt="www.sinprominas.org.br" style="width:100%">                                    
+          </a>
+        </div>
+        <!-- <div class="coluna">
+          <img src="Imagens/eleicao3.png" alt="descrição da imagem" style="width:100%">
+        </div> -->
+      </div>
+      <section class="textoPaginaInicial">
+        <h2 class="textoSaudacao">SEJA BEM VINDO AO SISTEMA DE ELEIÇÃO DO SINPRO MINAS ANO 2023</h2>
+        <h3 class="textoDataHorario">O PERÍODO DE VOTAÇÃO SERÁ ENTRE OS DIAS 01/11/2023 ATÉ DIA 15/11/2023</h3>                  
+        <!-- <a href="../fonte/modulos/loginEleicao/loginEleicao.html" class="buttonEntrar">INICIAR VOTAÇÃO</a> -->
+        <a href="modulos/loginEleicao/loginEleicao.html" class="buttonEntrar">INICIAR VOTAÇÃO</a>        
+        <!-- <a href="paginadestino.html" target="_blank" onclick="window.close(this)">         -->
+        <!-- <a onclick="abreLogin()" class="buttonEntrar">INICIAR VOTAÇÃO</a>         -->
+      </section>
+    </main>
+    <footer>        
+      <p class="textoRodape">
+          COPYRIGHT © 2023 - Sindicato dos Professores do Estado de Minas Gerais – Todos os Direitos Reservados. Contato : (31) 3115.3000 | <a class="emailContato" href="mailto:sinprominas@sinprominas.org.br">sinprominas@sinprominas.org.br</a>
+      </p>        
+      <ul class="canaisComunicacao">
+          <li class="elementoComunicacao" alt="https://pt-br.facebook.com/sinpro.minas/">
+              <a href="https://pt-br.facebook.com/sinpro.minas/" target="_blank">
+                  <img class="imagem" src="Imagens/icone-face.png" alt="https://pt-br.facebook.com/sinpro.minas/">
+              </a>                  
+          </li>
+          <li class="elementoComunicacao" alt="https://www.instagram.com/sinpro.minas/">
+              <a href="https://www.instagram.com/sinpro.minas/" target="_blank">
+                  <img class="imagem" src="Imagens/icone-instagram.png" alt="https://www.instagram.com/sinpro.minas/">                    
+              </a>                    
+          </li>    
+              
+          </li>
+          <li class="elementoComunicacao" alt="https://www.youtube.com/sinprominas">
+              <a href="https://www.youtube.com/sinprominas" target="_blank">
+                  <img class="imagem" src="Imagens/icone-youtube.png" alt="https://www.youtube.com/sinprominas">                                            
+              </a>                    
+          </li>
+          <li class="elementoComunicacao"  alt="https://twitter.com/sinprominas">
+              <a href="https://twitter.com/sinprominas" target="_blank">
+                  <img class="imagem" src="Imagens/icone-twitter.png" alt="https://twitter.com/sinprominas">                                                                    
+              </a>                    
+          </li>
+      </ul>
+    </footer>
+    <script defer src="app.js"></script>    
+  </body>
+</html>

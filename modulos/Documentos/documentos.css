@@ -1,0 +1,18 @@
+.textoDocumentos {
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color : gray;
+    margin-bottom: 10px;    
+}
+
+.documentos{
+    color:#4D4D4D;
+}
+
+
+#btndocumentos{
+    background-color:#990000 ;
+    color: white;
+}

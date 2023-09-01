@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- <iframe src="../index.html" frameborder="0"></iframe>   -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eleições Sinpro Minas 2023</title>
+    <link rel="stylesheet" href="../../Global.css" />
+    <link rel="icon" href="https://www.sinprominas.org.br/wp-content/uploads/2022/09/cropped-sinpromiansicone512px-32x32.png" sizes="32x32">                
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="logo">Eleição - Sinpro Minas 2023</a>
+      <nav class="nav">
+        <button class="btn-menu" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false" hidden>
+          Menu<span class="botaoMenu"></span>
+        </button>
+        <input type="checkbox" id="checkbox" class="checkbox" />
+        <label for="checkbox" class="label-menu"
+          >Menu<span class="botaoMenu"></span
+        ></label>
+        <ul class="menu" id="menu" role="menu">          
+          <li><a href="../../index.html"> <img alt="../fonte/index.html" src="../../Imagens/icone-home.png">  
+            Início</a></li>
+          <li><a href="../../modulos/Chapas/chapas.html"> <img alt="W3Schools" src="../../Imagens/icone-chapas.png">              
+            Chapas</a></li>
+          <li><a href="../../modulos/Documentos/documentos.html"> <img alt="W3Schools" src="../../Imagens/icone-documentos.png">                         
+            Documentação</a></li>
+          <li><a href="../../modulos/Duvidas/duvidas.html"> <img alt="W3Schools" src="../../Imagens/icone-duvidas.png">                                     
+            Dúvidas</a></li>
+          <li><a href="../../modulos/RecuperaSenha/recuperasenha.html"> <img alt="W3Schools" src="../../Imagens/icone-senhas.png">                                                 
+            Recupera Senha</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="telaInicial">                  
+      <section class="textoPaginaInicial">
+        <h2 class="textoLogin">LOGIN</h2>
+        <!-- <h3 class="textoLogin">"INFORME OS DADOS SOLICITADOS PARA ACESSAR A ÁREA DE VOTAÇÃO."</h3>                 -->
+
+          <!-- <h3 class="textoDados">Preencha os dados</h3>         -->
+          <form class="formLogin">
+
+            <!-- <img class="imagemLogin" src="../../Imagens/perfil.png" alt="" /> -->
+    
+            <div class="form-floating">
+              <label for="floatingInput" class="labelLogin">CPF</label>              
+              <input type="text" class="form-control" id="floatingInput" placeholder="cpf" />
+            </div>
+
+            <div class="form-floating">
+              <label for="floatingInput" class="labelLogin">Matrícula</label>              
+              <input type="number" class="form-control" id="floatingInput" placeholder="matrícula" />
+            </div>            
+    
+            <div class="form-floating">
+              <label for="floatingPassword" class="labelLogin">Senha</label>              
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Senha" />
+            </div>
+
+            <hr style="width: 100%; padding: 0.5%;">
+            <!-- <a href="../votacao/votacao.html" class="botaoacesso"><button class="buttonVotar" type="button">ACESSAR AREA DE VOTAÇÃO</button></a>             -->
+            <!-- <a href="../../modulos/votacao/votacao.html" target="_parent" class="botaoacesso" onclick="fecharForm()" >ENTRAR</a>             -->
+            <a href="../../modulos/votacao/votacao.html" target="_blank" class="botaoacesso" onclick="window.close(this)" >ENTRAR</a>            
+            <!-- <a class="botaoacesso" onclick="fecharForm()" >ENTRAR</a>                         -->
+            <!-- <button class="botaoacesso" type="button" onclick=>ENTRAR</button></a> -->
+            
+            <!-- <button class="w-100 btn btn-lg btn-primary" type="submit">INICIAR ELEIÇÃO</button> -->
+            <!-- <a href="https://www.freecodecamp.org/"><button class="buttonVotar" type="submit">VOTAR</button></a> -->
+            <!-- <a href="../fonte/modulos/ loginEleicao/loginEleicao.html" class="buttonEntrar">INICIAR VOTAÇÃO</a>             -->              
+
+    
+            <div class="esqueciSenha">
+              <a class="esqueciSenha" href="../../modulos/RecuperaSenha/recuperasenha.html">Esqueceu sua senha? Clique aqui</a>
+              <!-- <Link to="../../modulos/votacao/votacao.html">Esqueceu sua senha? Clique aqui</Link> -->
+            </div>   
+
+          </form>
+      </section>
+    </main>
+    <footer>        
+      <p class="textoRodape">
+        COPYRIGHT © 2023 - Sindicato dos Professores do Estado de Minas Gerais – Todos os Direitos Reservados. Contato : (31) 3115.3000 | <a class="emailContato" href="mailto:sinprominas@sinprominas.org.br">sinprominas@sinprominas.org.br</a>          
+      </p>        
+
+      <ul class="canaisComunicacao">
+        <li class="elementoComunicacao" alt="https://pt-br.facebook.com/sinpro.minas/">
+            <a href="https://pt-br.facebook.com/sinpro.minas/" target="_blank">
+                <img class="imagem" src="../../Imagens/icone-face.png" alt="https://pt-br.facebook.com/sinpro.minas/">
+            </a>                  
+        </li>
+        <li class="elementoComunicacao" alt="https://www.instagram.com/sinpro.minas/">
+            <a href="https://www.instagram.com/sinpro.minas/" target="_blank">
+                <img class="imagem" src="../../Imagens/icone-instagram.png" alt="https://www.instagram.com/sinpro.minas/">                    
+            </a>                    
+        </li>    
+            
+        </li>
+        <li class="elementoComunicacao" alt="https://www.youtube.com/sinprominas">
+            <a href="https://www.youtube.com/sinprominas" target="_blank">
+                <img class="imagem" src="../../Imagens/icone-youtube.png" alt="https://www.youtube.com/sinprominas">                                            
+            </a>                    
+        </li>
+        <li class="elementoComunicacao"  alt="https://twitter.com/sinprominas">
+            <a href="https://twitter.com/sinprominas" target="_blank">
+                <img class="imagem" src="../../Imagens/icone-twitter.png" alt="https://twitter.com/sinprominas">                                                                    
+            </a>                    
+        </li>
+      </ul>      
+      <!-- <ul class="canaisComunicacao">
+          <li class="elementoComunicacao" alt="https://pt-br.facebook.com/sinpro.minas/">
+              <a href="https://pt-br.facebook.com/sinpro.minas/" target="_blank">
+                  <img class="imagem" src="../../Imagens/facebook.png" alt="https://pt-br.facebook.com/sinpro.minas/">
+              </a>                  
+          </li>
+          <li class="elementoComunicacao" alt="https://www.instagram.com/sinpro.minas/">
+              <a href="https://www.instagram.com/sinpro.minas/" target="_blank">
+                  <img class="imagem" src="../../Imagens/instagram.png" alt="https://www.instagram.com/sinpro.minas/">                    
+              </a>                    
+          </li>    
+              
+          </li>
+          <li class="elementoComunicacao" alt="https://www.youtube.com/sinprominas">
+              <a href="https://www.youtube.com/sinprominas" target="_blank">
+                  <img class="imagem" src="../../Imagens/youtube.png" alt="https://www.youtube.com/sinprominas">                                            
+              </a>                    
+          </li>
+          <li class="elementoComunicacao"  alt="https://twitter.com/sinprominas">
+              <a href="https://twitter.com/sinprominas" target="_blank">
+                  <img class="imagem" src="../../Imagens/twitter.png" alt="https://twitter.com/sinprominas">                                                                    
+              </a>                    
+          </li>
+      </ul> -->
+    </footer>
+    <script defer src="loginEleicao.js"></script>
+  </body>
+</html>
