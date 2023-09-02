@@ -137,8 +137,8 @@ body {
   display: flex;
   flex-direction: column;
   /* height: 89vh; */
-  /* height: 81.5vh;   */
-  height: 603.2px;  
+  height: 81.5vh;
+  /*height: 603.2px;  */
   /* background-color: #cdc9c9; */
   background-color:#f5f1f1;      
   align-content: space-around;
