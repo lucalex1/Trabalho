@@ -137,8 +137,8 @@ body {
   display: flex;
   flex-direction: column;
   /* height: 89vh; */
-  height: 81.5vh;
-  /*height: 603.2px;  */
+  /*height: 81.5vh;*/
+  height: 603.2px;
   /* background-color: #cdc9c9; */
   background-color:#f5f1f1;      
   align-content: space-around;
@@ -165,11 +165,11 @@ body {
   height: 20%;
 }
 
-/* @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .column {
     width: 100%;
   }
-} */
+}
 
 .textoPaginaInicial{
   display: flex;
@@ -220,7 +220,8 @@ footer{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #4d4d4d;
+  /*background: #4d4d4d;*/
+  background: red;
   height: auto;
   /* position: absolute; */
   bottom: 0;
@@ -265,158 +266,3 @@ footer{
  background-color: #990000;
  color: white;
 }
-
-/* Trata telas */
-
-
-  /* @media (max-width: 1350px){
-    .telaInicial{
-
-      height: 578.2px;          
-    }
-  
-  }
-
-@media (max-width: 1280px){
-  .telaInicial{
-
-    height: 458.2px;          
-  }
-
-   .row{
-    margin-top: 5%;    
-  }
-
-
-}
-
-@media (max-width: 1155px){
-  .telaInicial{
-    height: 436.2px;          
-  }
-
-   .row{
-    margin-top: 5%;    
-  }
-
-  .header{
-    height: 6.1rem;
-  } 
-
-}
-
-@media (max-width: 1123px){
-  .telaInicial{
-    height: 556.2px;          
-  }
-
-  .row{
-    margin-top: 7%;    
-  }
-
-   
-  .header{
-    height: 6.1rem;
-  } 
-
-}
-
-@media (max-width: 1096px){
-  .telaInicial{
-    height: 370.2px;          
-  }
-
-  .row{
-    margin-top: 4%;    
-  }
-   
-  .header{
-    height: 3.6rem;
-  } 
-
-  .menu a{
-    display: block;
-    padding: 1.1rem;
-  }
-
-}
-
-@media (max-width: 1027px){ 
- 1280 x 1024
-@media (max-height:700px){
-
-  .telaInicial{
-    height: 552.2px;          
-  }
-
-  .row{
-    margin-top: 10%;    
-  }
-   
-   .header{
-    height: 4.9rem;
-  }}   
-
- 1280 x 960
-  @media (max-height:650px){ 
-
-  .telaInicial{
-    height: 502.2px;          
-  }
-
-  .row{
-    margin-top: 10%;    
-  }
-   
-   .header{
-    height: 4.9rem;
-  }} 
-
- 1280 x 800 
-@media (max-height:520px){ 
-
-  .telaInicial{
-    height: 375.2px;          
-  }
-
-  .row{
-    margin-top: 5%;    
-  }
-   
-   .header{
-    height: 4.9rem;
-  }} 
-
- 1280 x 768 x 720 
-@media (max-height:495px){ 
-
-  .telaInicial{
-    height: 350.2px;          
-  }
-
-  .row{
-    margin-top: 4%;    
-  }
-   
-   .header{
-    height: 4.9rem;
-  }} 
-
-  1280 x 600
-@media (max-height:480px){ 
-
-  .telaInicial{
-    height: 300.2px;          
-  }
-
-  .row{
-    margin-top: 1%;    
-  }
-   
-   .header{
-    height: 3.9rem;
-  }}  
-} */
-
-
-
