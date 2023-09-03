@@ -14,9 +14,9 @@
 .botaoDuvida {
     background-color: #007DBB;  
     color: var(--white);
-    padding: 6px 40px;
+    padding: 6px 9px;
     /* width: 650px; */
-    width: 55%;    
+    width: 63%;    
     text-align: left;
     font-size: 16px;
     font-weight: bold;    
