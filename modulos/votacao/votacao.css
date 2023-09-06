@@ -15,22 +15,27 @@ h1{
 
 .formVotacao{
     display: block;
-    width: 420px;
+    /* width: 420px; */
+    width: auto;    
     padding: 15px;
-    height: 435px;
+    /* height: 435px; */
+    height: auto;    
     margin-top: 50px;
     margin-right: 5%;
     /* background-color: var(--royal-blue-light); */
     background-color: lightgray;            
     border-radius: 5%;       
     border-style: none;
+    padding: 1rem;
 }
 
 .formResultado{
     display: block;
-    width: 420px;
+    /* width: 420px; */
+    width: auto;    
     padding: 15px;
-    height: 350px;
+    /* height: 350px; */
+    height: auto;    
     margin-top: 50px;
     /* margin-left: 5%;     */
     background-color: #007DBB;
@@ -62,7 +67,7 @@ input[type=radio], input[type=checkbox]  {
     font-size: 25px;
     font-weight: bold;
     text-decoration: underline;
-    margin: 20px;
+    margin: 10x;
     color:black;
 }
 
@@ -100,7 +105,7 @@ label{
     text-align: center;
     font-size: 25px;
     font-weight: bold;    
-    margin-inline-start: 10%;
+    /* margin-inline-start: 10%; */
     margin-top: 5%;
     transition-duration: 0.4s;
     cursor: pointer;    
