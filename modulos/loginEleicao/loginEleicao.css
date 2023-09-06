@@ -22,9 +22,11 @@ h3{
 .formLogin{
     /* display: block; */
     display: flex;    
-    width: 350px;
+    /* width: 350px; */
+    width: auto;    
     padding: 15px;
-    height: 600px;
+    /* height: 600px; */
+    height: auto;    
     margin-top: 25px;
     /* background-color: var(--royal-blue-light);     */
     background-color: lightgray;        
